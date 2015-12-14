@@ -1,0 +1,9 @@
+Name: STATS QUADE ANCOVA
+Dialog-Specs: STATS_QUADE_ANCOVA.spd
+Summary: Quade nonparametric analysis of covariance
+Description: Produces the Quade test of equality of conditional popula
+ tion distributions based on a rank analysis of covariance.
+Author: David Nichols, IBM SPSS
+Version: 1.0.0
+Product-Version: 18
+Plugins: Python
