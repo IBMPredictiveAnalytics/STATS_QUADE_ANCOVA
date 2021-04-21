@@ -5,7 +5,7 @@ Summary: Quade nonparametric analysis of covariance
 Description: Produces the Quade test of equality of conditional popula
  tion distributions based on a rank analysis of covariance.
 Author: David Nichols, IBM SPSS
-Version: 2.0.0
+Version: 2.0.1
 Product-Version: 24
 Product-Version-Maximum: 99
 Plugins: Python
