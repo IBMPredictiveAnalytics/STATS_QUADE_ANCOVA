@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+
+"text/html; charset=utf-8">
+
+  <title>ピボット テーブルを使用した計算</title>
+  <style type="text/css">
+
+  <!-- 
+
+  H1 {font-weight:bold; color:#006699; font-size:125%; }
+  H2 {font-weight:bold; color:#006699; font-size:110%; }
+  TABLE {font-size:100%;}
+
+  /* paragraph tags */
+  .step {text-indent: -1.3em; margin-left:1.3em; margin-top: 0px;}
+  .menuselection {margin-left:10px}
+  .bullet {list-style-type: disc;margin-top:12px; margin-left:36px; text-indent:-1em; }
+  .codeblock {background-color: #ffffe6; display:block; margin-left:5px; padding:5px;}
+
+  /* inline tags */
+  .screen {font-weight:bold; color:#408080}                       /*** used refer to on-screen text ***/
+  .name {font-style: italic}                                                       /*** used to tag names, such as variable names, file names, and so forth ***/
+  .runinhead {font-weight: bold} 
+  .superscript {vertical-align:super; font-size:80%}
+  .subscript {vertical-align:sub; font-size:80%}
+
+
+  --> 
+  </style>
+<title>Quade 検定のヘルプ</title>
+</head>
+
+<body>
+	
+<H2><P ALIGN="CENTER">条件付き母集団分布の同等性に関する Quade のノンパラメトリック共分散分析</P></H2>
+
+<P>
+条件付き母集団分布の同等性の共分散検定の Quade (1967) のノンパラメトリック分析を行います。また、Huitema (1980) の論によるアプローチを使用して、すべてのグループの間でペアワイズ比較を行います。これらは LSD 無修正比較です。</P>
+
+<BR>
+<P>
+<B>参照</B>
+</P>
+
+<P>
+Huitema, B. (1980). The analysis of covariance and alternatives. New York: Wiley.
+</P>
+
+<P>
+Quade, D. (1967). Rank analysis of covariance. <I>Journal of the American Statistical Association, 62</I>(320), 1187-1200.
+</P>
+
+<BR>
+<BR>
+
+<P>
+<B>データの要件と操作:</B>
+</P>
+
+<P>
+従属変数と共変量は数値型として定義する必要があります。グループ化因子の変数は数値型でなければならず、日付変数や時刻変数であってはなりません。
+</P>
+
+<P>
+いずれかの名前付き変数に欠損値があるケースは削除されます (リストごとの削除)。
+</P>
+
+<P>
+分割ファイルもケースの選択も許可されません。分割はオフになり、すべて完全なケースが使用されます。
+</P>
+
+<P>
+重みを使用できますが、小数値 (整数でない値) は整数に切り捨てられます。
+</P>
+
+<BR>
+<BR>
+
+<P>
+<B>インストール済みメニューの場所:</B>
+</P>
+
+<P>
+この機能拡張のダイアログ ボックスは、「分析」>「ノンパラメトリック検定」で表示されるメニューにインストールされます。
+</P>
+
+<BR>
+<HR>
+<p style="font-size:80%;">Copyright IBM Corp. 1989, 2014</p>
+</body>
+</html>
