@@ -1,4 +1,5 @@
 Name: STATS QUADE ANCOVA
+Display-Name: Quade Nonparametric ANCOVA
 Dialog-Specs: STATS_QUADE_ANCOVA.spd
 Misc-Files: extsyntax.css,LICENSE,README.md,default.png
 Summary: Quade nonparametric analysis of covariance
