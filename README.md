@@ -5,7 +5,7 @@ Produces the Quade test of equality of conditional population distributions base
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for Python.
+- IBM SPSS Statistics 18 or later.
 
 ---
 Installation intructions
@@ -18,6 +18,21 @@ Installation intructions
 Tutorial
 ----
 
+### Installation Location
+
+Analyze →
+
+&nbsp;&nbsp;Nonparametric Tests →
+
+&nbsp;&nbsp;&nbsp;&nbsp;Quade Nonparametric ANCOVA 
+
+### UI
+
+<img width="616" alt="image" src="https://user-images.githubusercontent.com/19230800/196510631-9869ad90-a4e6-4f21-8d30-4c1a3ba8aafe.png">
+
+## Output
+
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/19230800/196511026-b0e2525a-08b2-42ec-be68-a18523d4b636.png">
 
 
 ---
